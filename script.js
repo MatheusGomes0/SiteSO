@@ -1,14 +1,23 @@
-// Função para fazer a navegação suave entre as seções
-document.querySelectorAll('nav a').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-        e.preventDefault();
+const infoSections = document.querySelectorAll('.info');
+const windowHeight = window.innerHeight;
 
-        const targetId = this.getAttribute('href').substring(1);
-        const targetElement = document.getElementById(targetId);
+// Função para verificar se a seção está visível na janela
+function isSectionInView(section) {
+    const rect = section.getBoundingClientRect();
+    return (rect.top >= 0 && rect.bottom <= windowHeight);
+}
 
-        window.scrollTo({
-            top: targetElement.offsetTop,
-            behavior: 'smooth'
-        });
+// Função para mostrar seções visíveis
+function showVisibleSections() {
+    infoSections.forEach(section => {
+        if (isSectionInView(section)) {
+            section.classList.add('active');
+        }
     });
-});
+}
+
+// Evento de rolagem
+window.addEventListener('scroll', showVisibleSections);
+
+// Mostrar as seções visíveis ao carregar a página
+window.addEventListener('load', showVisibleSections);
