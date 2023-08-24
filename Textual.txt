@@ -1,0 +1,19 @@
+Década de 1940:
+> Contexto da Guerra: A Segunda Guerra Mundial impulsionou a necessidade de acelerar cálculos e decifrar códigos militares, levando ao desenvolvimento de máquinas para esses fins.
+> Colossus e Enigma: Alan Turing estava envolvido no desenvolvimento da máquina Colossus na Inglaterra para decifrar códigos alemães, incluindo o Enigma, proporcionando uma vantagem aos Aliados.
+> Mark I: Em 1944, nos EUA, o primeiro computador eletromecânico, o Mark I, foi construído na Universidade de Harvard, sendo utilizado para cálculos matemáticos pela Marinha.
+> ENIAC: Considerado o primeiro computador digital e eletrônico, o ENIAC foi desenvolvido na Universidade da Pensilvânia para cálculos balísticos e outros fins. Era enorme, consumia muita energia e a programação era feita manualmente.
+> Arquitetura von Neumann: O conceito de "programa armazenado" proposto por John von Neumann se tornou a base da arquitetura de computação atual, permitindo que instruções e dados fossem armazenados na mesma memória.
+
+Década de 1950
+>Início do uso de transistores e memórias magnéticas possibilitou o aumento da velocidade e da confiabilidade do processamento, bem como uma grande aceleração na leitura do dados, permitindo assim maiores capacidades de armazenamento ao mesmo tempo em que se diminuiam os tamanhos dos hardwares.
+> É colocado em operação pelo MIT o Whirlwind I, considerado o primeiro computador de processamento em tempo real, foi inovador introduzindo a memória magnética em seu hardware.
+> Criação da rotina de processamento chamada de Batch, onde diversos programas eram processados em sequencia e ao final do processamento de todo era devolvido o resultado, nessa época, o resultado era entregue em uma fita de saída. Isso pode parecer algo trivial hoje em dia, mas antigamente os programas eram executados manualmente um a um, essa nova modalidade de processamento diminua a ociosidade do sistema e aproveitava melhor o tempo do processador.
+>Criação do primeiro sistema operacional, chamado de Monitor, criado principalmente para tentar automatizar tarefas para os usuários
+>Criação das primeiras linguagens de programação de alto nível como FORTRAN e COBOL, onde houve o destacamente dos programados pro hardware, facilitando assim a escrita e manutenção dos programas.
+
+Década de 1960
+>
+
+Década de 1970
+>
