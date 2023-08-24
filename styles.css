@@ -45,6 +45,13 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.imagem-centralizada {
+  display: block; 
+  margin: 0 auto; 
+  max-width: 100%; 
+  height: 100px; 
+}
+
 /* Estilos para seções */
 h2 {
   font-size: 24px;
@@ -59,7 +66,6 @@ footer {
   padding: 10px 0;
 }
 
-/* Estilos gerais (como nos exemplos anteriores) */
 
 /* Ocultar todas as seções de informações */
 .info {
@@ -72,4 +78,35 @@ footer {
 .info.active {
   opacity: 1;
   transform: translateY(0);
+}
+
+
+/* Adicione outros estilos conforme necessário */
+
+.slideshow-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+img {
+  width: 100px;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  0% {
+      opacity: 0.4;
+  }
+  100% {
+      opacity: 1;
+  }
 }
