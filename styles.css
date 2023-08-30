@@ -10,16 +10,18 @@ body {
 }
 
 header {
-  background-color: #333;
+  background-color: #2b2f50;
   color: #fff;
   text-align: center;
   padding: 20px 0;
 }
 
 nav {
-  background-color: #444;
+  background-color: rgb(63, 70, 134);
   color: #fff;
   text-align: center;
+  font-size: 17px;
+  font-family: 'Times New Roman', Times, serif; 
 }
 
 nav ul {
@@ -69,7 +71,7 @@ main {
   margin: 1.4% auto; 
   margin-top: 25px;
   width: max-content;
-  height: 170px;
+  height: 120px;
  border: 2px solid #2c2b2b;
 }
 .container {
@@ -101,10 +103,16 @@ main {
 }
 
 .decadas {
-  background-color: #2c2b2b;
+  background-color: #2b2f50;
   color: #fff;
   text-align: center;
+  margin-top: 0px;
 }
+
+.borda{
+  border: 2px solid #2c2b2b;
+}
+
 
 /* Estilos para seções */
 h2 {
@@ -114,7 +122,7 @@ h2 {
 
 /* Rodapé */
 footer {
-  background-color: #333;
+  background-color: #2b2f50;
   color: #fff;
   text-align: center;
   padding: 10px 0;
